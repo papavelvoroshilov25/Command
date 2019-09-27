@@ -17,7 +17,7 @@ public interface Command {
 Допустим,  вы  хотите  реализовать  команду  для  включения  света. 
 Обратившись к описаниям классов устройств, мы видим, что класс 
 Light содержит два метода: on() и off(). Реализация команды выглядит примерно так:
-[image](https://github.com/papavelvoroshilov25/Command/blob/master/images/svet.JPG?raw=true)
+![image](https://github.com/papavelvoroshilov25/Command/blob/master/images/svet.JPG?raw=true)
 
 ### Определение паттерна Команда: диаграмма классов
 ![image](https://github.com/papavelvoroshilov25/Command/blob/master/images/image.jpg?raw=true)
