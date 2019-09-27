@@ -4,4 +4,4 @@
 * Сопоставьте роли и методы из примера с кафе с соответствующими ролями и методами паттерна Команда
 * Напишите реализацию метода undo() для макрокоманды
 ### Определение паттерна Команда: диаграмма классов
-https://github.com/papavelvoroshilov25/Command/commit/01665a8dc75a7ea719efa332297801bfe9262fb4
+https://github.com/papavelvoroshilov25/Command/commit/01665a8dc75a7ea719efa332297801bfe9262fb4/image.jpg
