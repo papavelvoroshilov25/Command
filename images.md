@@ -18,6 +18,10 @@ public interface Command {
 Обратившись к описаниям классов устройств, мы видим, что класс 
 Light содержит два метода: on() и off(). Реализация команды выглядит примерно так:
 ![image](https://github.com/papavelvoroshilov25/Command/blob/master/images/svet.JPG?raw=true)
+### Использование объекта команды
+Упростим исходную задачу: допустим, пульт оснащен всего одной кнопкой и имеет всего одну ячейку 
+для хранения управляемого устройства:
+
 
 ### Определение паттерна Команда: диаграмма классов
 ![image](https://github.com/papavelvoroshilov25/Command/blob/master/images/image.jpg?raw=true)
