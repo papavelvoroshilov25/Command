@@ -21,7 +21,7 @@ Light содержит два метода: on() и off(). Реализация 
 ### Использование объекта команды
 Упростим исходную задачу: допустим, пульт оснащен всего одной кнопкой и имеет всего одну ячейку 
 для хранения управляемого устройства:
-
+![image](https://github.com/papavelvoroshilov25/Command/blob/master/images/Object_command.JPG?raw=true)
 
 ### Определение паттерна Команда: диаграмма классов
 ![image](https://github.com/papavelvoroshilov25/Command/blob/master/images/image.jpg?raw=true)
