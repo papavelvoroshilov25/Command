@@ -5,4 +5,4 @@
 * Напишите реализацию метода undo() для макрокоманды
 ### Определение паттерна Команда: диаграмма классов
 ![картинка] 
-https://github.com/papavelvoroshilov25/Command/blob/master/images/image.jpg
+https://github.com/papavelvoroshilov25/Command/blob/master/images/image.jpg?raw=true
