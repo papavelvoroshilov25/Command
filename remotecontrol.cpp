@@ -10,6 +10,7 @@ RemoteControl::RemoteControl()
         onCommands[i] = noCommand;
         offCommands[i] = noCommand;
     }
+    undoCommand = noCommand;
 }
 
 void RemoteControl::setCommand(int slot, Command *onCommand, Command *offCommand) {
@@ -19,10 +20,16 @@ void RemoteControl::setCommand(int slot, Command *onCommand, Command *offCommand
 
 void RemoteControl::onButtonWasPushed(int slot) {
     onCommands[slot]->execute();
+    undoCommand = onCommands[slot];
 }
 
 void RemoteControl::offButtonWasPushed(int slot) {
     offCommands[slot]->execute();
+    undoCommand = offCommands[slot];
+}
+
+void undoButtonWasPushed() {
+
 }
 
 QString RemoteControl::toString() {
