@@ -10,6 +10,7 @@ class RemoteControl
 private:
     Command **onCommands;
     Command **offCommands;
+    Command *undoCommand;
 public:
     RemoteControl();
     void setCommand(int slot, Command *onCommand, Command *offCommand);
