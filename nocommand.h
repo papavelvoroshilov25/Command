@@ -8,6 +8,7 @@ class NoCommand : public Command
 public:
     NoCommand();
     void execute();
+    void undo();
 };
 
 #endif // NOCOMMAND_H
