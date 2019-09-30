@@ -35,6 +35,11 @@ int main(int argc, char *argv[])
 
     remoteControl->onButtonWasPushed(2);
     remoteControl->offButtonWasPushed(2);
+    
+    cout << "println(remoteControl)" << endl;
+    remoteControl->undoButtonWasPushed();
+    cout << "println(remoteControl)" << endl;
+    remoteControl->undoButtonWasPushed();
 
     return a.exec();
 }
