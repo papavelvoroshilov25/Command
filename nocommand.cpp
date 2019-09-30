@@ -8,3 +8,8 @@ NoCommand::NoCommand()
 void NoCommand::execute() {
 
 }
+
+void NoCommand::undo() {
+
+}
+
