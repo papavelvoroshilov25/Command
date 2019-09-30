@@ -11,6 +11,7 @@ private:
 public:
     LightOnCommand(Light *light);
     void execute();
+    void undo();
 };
 
 #endif // LIGHTONCOMMAND_H
