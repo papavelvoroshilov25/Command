@@ -9,6 +9,8 @@ public:
     Command();
     ~Command();
     virtual void execute() = 0;
+    void indo();
+    
 };
 
 #endif // COMMAND_H
