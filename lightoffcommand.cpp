@@ -8,3 +8,7 @@ LightOffCommand::LightOffCommand(Light *light)
 void LightOffCommand::execute() {
     light->off();
 }
+
+void LightOffCommand::undo() {
+    light->on();
+}
